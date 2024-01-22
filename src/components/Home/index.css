@@ -1,0 +1,92 @@
+.bg-container {
+  background-image: linear-gradient(
+      to left,
+      rgba(245, 246, 252, 0.52),
+      rgb(0, 47, 71),
+      rgb(0, 0, 0)
+    ),
+    url('https://res.cloudinary.com/defacaof3/image/upload/v1705835215/jason-dent-w3eFhqXjkZE-unsplash_bmbuq5.jpg');
+  background-size: cover;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 220px;
+  padding-bottom: 100px;
+}
+.home-head {
+  color: white;
+  font-size: 50px;
+}
+.get-started-button {
+  background-color: blue;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  border-radius: 5px;
+  border-width: 0px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.head-icon {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  background-color: transparent;
+  border-width: 0px;
+}
+.icon {
+  margin-top: 25px;
+  margin-left: 10px;
+  height: 19px;
+  width: 19px;
+  cursor: pointer;
+}
+.connect-us-container {
+  background-color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appLogo {
+  color: #ececf0;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.connect-with-us {
+  color: #ececf0;
+}
+.service-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.service-item {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+}
+.service-image {
+  height: 350px;
+  width: 420px;
+  border-radius: 10px;
+}
+.service-para {
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+.our-services-head {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.service-para {
+  color: gray;
+  font-weight: 500;
+}

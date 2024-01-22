@@ -1,0 +1,76 @@
+.contact-container {
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.help-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.help-icon {
+  height: 80px;
+  width: 80px;
+  align-self: center;
+  color: coral;
+  margin-bottom: 20px;
+}
+.contact-main-head {
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.contact-main-para {
+  text-align: center;
+  color: gray;
+  font-family: 'Roboto';
+}
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+}
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+}
+.contact-icon {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+  color: coral;
+  margin-bottom: 20px;
+}
+.contact-head {
+  font-family: 'Roboto';
+  text-align: center;
+}
+.contact-para {
+  font-family: 'Roboto';
+  text-align: center;
+  color: #ababb2;
+}
+.contact-button {
+  margin: 20px;
+  padding: 12px;
+  background-color: coral;
+  border-radius: 5px;
+  border-width: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,24 @@
+.nav-container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo {
+  height: 90px;
+  width: 90px;
+}
+@media only screen and (max-width: 600px) {
+  .nav-container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
